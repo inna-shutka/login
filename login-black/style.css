@@ -136,7 +136,7 @@
 }
 
 .login-black {
-    background-image: url(login-black/icons-black/BG.png);
+    background-image: url(../login-black/icons-black/BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
