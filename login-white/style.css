@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px 20px 16px;
+    background: rgba(220, 222, 236, 0.18);
+    border: 1px solid #EBECF3;
+    backdrop-filter: blur(22px);
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        padding: 50px 55px 48px;
+        align-items: stretch;
+    }
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 27px;
+    color: #2A2E3C;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 145%;
+    text-align: center;
+    color: #2A2E3C;
+    text-align: center;
+}
+
+.input {
+    display: block;
+}
+
+.input__label {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 145%;
+    color: #67697C;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 600px) {
+    .input__label {
+        font-size: 0.875rem;
+    }
+}
+
+.input__input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D3D5E2;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    line-height: 150%;
+    color: #2A2E3C;
+}
+
+@media screen and (min-width: 600px) {
+    .input__input {
+        font-size: 0.875rem;
+    }
+}
+
+.input__input:hover {
+    border: 1px solid #858DE4
+}
+
+.input__input:focus {
+    border: 1px solid #858DE4;
+    box-shadow: 0px 0px 0px 3px rgba(133, 141, 228, 0.15);
+}
+
+.input__input::placeholder {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 145%;
+    font-family: 'Nunito Sans';
+    color: #9C9DA6;
+}
+
+@media screen and (min-width: 600px) {
+    .input__input::placeholder {
+        font-size: 0.875rem;
+    }
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    background: #FF0065;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .button {
+        font-size: 0.875rem;
+    }
+}
+
+.button:hover {
+    background: #FF4991;
+    transition: 0.3s ease;
+}
+
+.button:focus {
+    background: #E9035E;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #6D7AFF;
+}
+
+@media screen and (min-width: 600px) {
+    .link {
+        font-size: 0.875rem;
+    }
+}
+
+.link:hover {
+    color: #c16dff;
+}
+
+.link:focus {
+    color: #c16dff;
+    text-decoration: underline;
+}
+
+.login-white {
+    background-image: url(../login-white/icons-white/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 72px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+    .login-white {
+        padding: 140px;
+    }
+}
+
+.login-white__container {
+    max-width: 480px;
+    width: 100%;
+}
+
+.login-white__title {
+    margin-bottom: 16px ;
+}
+
+.login-white__subtitle {
+    margin-bottom: 40px ;
+}
+
+.login-white__input:not(:last-of-type) {
+    margin-bottom: 16px;
+}
+
+.login-white__input:last-of-type {
+    margin-bottom: 24px;
+}
+
+
+.login-white__button {
+    margin-bottom: 24px;
+}
+
+.login-white__link {
+    align-self: center;
+}
